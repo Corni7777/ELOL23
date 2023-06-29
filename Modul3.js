@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
           bildElement.style.marginTop = '-233px'
         } else {
             result1.style.color = 'red'
-          result1.innerHTML = 'Falsch!';
+          result1.innerHTML = 'Falsch! Versuche es noch einmal.';
         }
       });
     }
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
           result2.innerHTML = 'Orange ist richtig. Orange vereint die positiven Eigenschaften von Rot und Gelb. Es erregt somit Aufmerksamkeit, ohne instabil zu wirken. Falls dir zuerst Rot und Gelb in den Sinn gekommen sind ist das allerdings nicht schlimm, da man diese beiden ebenfalls gut nutzen könnte.';
         } else {
             result2.style.color = 'red'
-          result2.innerHTML = 'Falsch!';
+          result2.innerHTML = 'Falsch! Versuche es noch einmal.';
         }
       });
     } })

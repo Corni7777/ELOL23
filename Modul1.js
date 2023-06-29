@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
           result1.innerHTML = 'Richtig!';
         } else {
             result1.style.color = 'red'
-          result1.innerHTML = 'Falsch!';
+          result1.innerHTML = 'Falsch! Versuche es noch einmal.';
         }
       });
     }
@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
           result2.innerHTML = 'Richtig!';
         } else {
             result2.style.color = 'red'
-          result2.innerHTML = 'Falsch!';
+          result2.innerHTML = 'Falsch! Versuche es noch einmal.';
         }
       });
     }
@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
             result3.innerHTML = 'Richtig!';
           } else {
             result3.style.color = 'red'
-            result3.innerHTML = 'Falsch!';
+            result3.innerHTML = 'Falsch! Versuche es noch einmal.';
           }
         });
       }
@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function() {
             result4.innerHTML = 'Richtig!';
           } else {
             result4.style.color = 'red'
-            result4.innerHTML = 'Falsch!';
+            result4.innerHTML = 'Falsch! Versuche es noch einmal.';
           }
         });
       }
@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', function() {
             result5.innerHTML = 'Richtig!';
           } else {
             result5.style.color = 'red'
-            result5.innerHTML = 'Falsch!';
+            result5.innerHTML = 'Falsch! Versuche es noch einmal.';
           }
         });
       }
@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', function() {
             result6.innerHTML = 'Richtig!';
           } else {
             result6.style.color = 'red'
-            result6.innerHTML = 'Falsch!';
+            result6.innerHTML = 'Falsch! Versuche es noch einmal.';
           }
         });
       }
