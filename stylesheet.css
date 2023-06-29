@@ -1,6 +1,7 @@
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    background-color: wheat;
 }
 form {
     /* CSS für das Formular */
@@ -18,7 +19,7 @@ form {
         width: 10;
       }
 .white {
-    color: white;
+    color: wheat;
 }
 
   /* CSS für das Bild */
@@ -60,7 +61,7 @@ ul {
   margin: 0;
   padding: 0;
   width: 200px;
-  background-color: #f1f1f1;
+  background-color: wheat;
   position: fixed;
 }
 
