@@ -2,9 +2,58 @@ body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
 }
-input {
-    text-align:right;
+form {
+    /* CSS für das Formular */
+        width: 800px;
+        margin: 0 auto;
+        text-align: left;
+      }
+  
+      label {
+        display: block;
+        text-align: left;
+      }
+  
+      input {
+        width: 10;
+      }
+.white {
+    color: white;
 }
+
+  /* CSS für das Bild */
+  #bild1 {
+    position: absolute;
+    width: 230px;
+    height: auto;
+    margin-left: 300px;
+    margin-top: -190px;
+  }
+  #bild2 {
+    position: absolute;
+    width: 160px;
+    height: auto;
+    margin-left: 337px;
+    margin-top: -185px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* CSS-Styling für die Navigation */
 ul {
   list-style-type: none;
@@ -12,6 +61,7 @@ ul {
   padding: 0;
   width: 200px;
   background-color: #f1f1f1;
+  position: fixed;
 }
 
 li a {

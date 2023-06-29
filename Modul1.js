@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
         var result2 = document.getElementById('result2');
         result2.innerHTML = '';
         
-        if (this.value === 'b') {
+        if (this.value === 'c') {
             result2.style.color = 'green'
           result2.innerHTML = 'Richtig!';
         } else {
@@ -71,12 +71,27 @@ document.addEventListener('DOMContentLoaded', function() {
           var result5 = document.getElementById('result5');
           result5.innerHTML = '';
           
-          if (this.value === 'b') {
+          if (this.value === 'c') {
             result5.style.color = 'green'
             result5.innerHTML = 'Richtig!';
           } else {
             result5.style.color = 'red'
             result5.innerHTML = 'Falsch!';
+          }
+        });
+      }
+
+      for (var j = 0; j < q6Answer.length; j++) {
+        q6Answer[j].addEventListener('change', function() {
+          var result6 = document.getElementById('result6');
+          result5.innerHTML = '';
+          
+          if (this.value === 'b') {
+            result6.style.color = 'green'
+            result6.innerHTML = 'Richtig!';
+          } else {
+            result6.style.color = 'red'
+            result6.innerHTML = 'Falsch!';
           }
         });
       }
