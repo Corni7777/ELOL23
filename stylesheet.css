@@ -1,7 +1,13 @@
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    background-color: wheat;
+    background-color: white;
+}
+video {
+    padding: 50px;
+}
+h1 {
+    padding-bottom: 20px;
 }
 form {
     /* CSS für das Formular */
@@ -14,12 +20,18 @@ form {
         display: block;
         text-align: left;
       }
+      label:hover {
+        cursor: pointer;
+      }
   
       input {
         width: 10;
       }
+      input:hover {
+        cursor: pointer;
+      }
 .white {
-    color: wheat;
+    color: white;
 }
 
   /* CSS für das Bild */
@@ -37,6 +49,24 @@ form {
     margin-left: 337px;
     margin-top: -185px;
   }
+  .schemabild {
+    width: 300px;
+    height: auto;
+    margin-left: 20px;
+}
+.schemabild:hover{
+    cursor: pointer;
+}
+
+.farbbild {
+    width: 239px;
+    height: auto;
+    margin-right: 20px;
+    border: 1px solid black;
+}
+.farbbild:hover{
+    cursor: pointer;
+}
 
 
 
@@ -48,11 +78,19 @@ form {
 
 
 
+#kapu {
+    width: 800px;
+    width: 800px;
+    margin: 0 auto;
+    
+}
 
 
 
+#kap {
+    width: 800px;
 
-
+}
 
 
 /* CSS-Styling für die Navigation */
@@ -61,7 +99,7 @@ ul {
   margin: 0;
   padding: 0;
   width: 200px;
-  background-color: wheat;
+  background-color: white;
   position: fixed;
 }
 
