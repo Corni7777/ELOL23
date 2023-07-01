@@ -2,9 +2,30 @@ body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     background-color: white;
+    font-size: large;
 }
 video {
     padding: 50px;
+}
+button {
+  border: 2px solid black;
+  font-size: large;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #555;
+  color: white;
+}
+#start {
+  border: 2px solid black;
+  font-size: large;
+  border-radius: 5px;
+  padding: 10px;
+  width: 200px;
 }
 h1 {
     padding-bottom: 20px;
@@ -80,8 +101,8 @@ form {
 
 #kapu {
     width: 800px;
-    width: 800px;
-    margin: 0 auto;
+margin: 0 auto;
+font-size:x-large;
     
 }
 
@@ -90,6 +111,11 @@ form {
 #kap {
     width: 800px;
 
+}
+#bildquellen {
+  text-align: left;
+  width: 1050px;
+  margin: 0 auto;
 }
 
 
